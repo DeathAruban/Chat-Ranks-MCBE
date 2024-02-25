@@ -7,7 +7,7 @@
 <p align="center">
 	<a href="https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/latest"><img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/DeathAruban/Chat-Ranks-MCBE?label=release&sort=semver"></a>
 	<a href="https://github.com/DeathArubanChat-Ranks-MCBE/releases/latest"><img alt="GitHub release (latest by SemVer)" src="https://img.shields.io/github/downloads/DeathAruban/Chat-Ranks-MCBE/latest/total?sort=semver"></a>
-<img alt="YouTube Video Views" src="https://img.shields.io/youtube/views/axPOtFdQQwc&abstyle=social">
+<img alt="YouTube Video Views" src="https://img.shields.io/youtube/views/v=axPOtFdQQwc&abstyle=social">
 <img alt="PingPong status" src="https://img.shields.io/pingpong/status/sp_7b7ce509b36c47ee9b20d041d018dc0a">
 </p>
 
