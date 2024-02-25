@@ -28,10 +28,10 @@ With this addon, you will have the opportunity to radically transform your world
 <p align="center"><img src="https://github.com/DeathAruban/Chat-Ranks-MCBE/blob/main/img/experimental.png" loading="eager" /></p>
 Inside the world you will have 4 commands available
 
--rank help   (to see all commands available for rank)
--rank list   (opens a form in which you can see the list of permissions, to add more modify the scripts file config)
--rank add    (opens a form in which you can add permission to a player)
--rank remove   (opens a form in which you can remove permission to a player)
+- -rank help   (to see all commands available for rank)
+- -rank list   (opens a form in which you can see the list of permissions, to add more modify the scripts file config)
+- -rank add    (opens a form in which you can add permission to a player)
+- -rank remove   (opens a form in which you can remove permission to a player)
 
 obviously to use the commands you must have admin permissions
 then you will need to add the tag
