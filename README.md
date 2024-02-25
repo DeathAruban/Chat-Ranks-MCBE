@@ -78,6 +78,7 @@ for example if the player has an admin in chat he will have those possibilities 
 example of how it looks in chat:
 <p align="center"><img src="https://github.com/DeathAruban/Chat-Ranks-MCBE/blob/main/img/chat.png" loading="eager" /></p>
 Instead, in the case of a common player, therefore without rank, you have two possibilities: to show the chat in a standard or modified way. You just need to set ‘true’ or ‘false’ on ‘default’ in ‘config’.
+
 ```json5
         1:{
             default:true, here
@@ -87,6 +88,7 @@ Instead, in the case of a common player, therefore without rank, you have two po
             chat_color:'§f'
         },
 ```
+
 example of how it looks in chat:
 <p align="center"><img src="https://github.com/DeathAruban/Chat-Ranks-MCBE/blob/main/img/base.png" loading="eager" /></p>
 
