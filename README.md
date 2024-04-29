@@ -2,7 +2,7 @@
      <a href="https://github.com/DeathAruban/Chat-Ranks-MCBE">
 		<img src="https://github.com/DeathAruban/Chat-Ranks-MCBE/blob/main/img/chat_ranks+.png" loading="eager" />
 	</a><br>
-	<b>A highly customisable, Addon Chat Ranks+ for Minecraft: Bedrock Edition written in javascript MC (API 1.20.71)</b>
+	<b>A highly customisable, Addon Chat Ranks+ for Minecraft: Bedrock Edition written in javascript MC (API 1.20.80)</b>
 </p>
 <p align="center">
 	<a href="https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/latest"><img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/DeathAruban/Chat-Ranks-MCBE?label=release&sort=semver"></a>
