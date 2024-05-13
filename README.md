@@ -28,79 +28,19 @@ With this addon, you will have the opportunity to radically transform your world
 | 1.20.80   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | previous versions   | :x:  | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | 
 
-# How does it work
-## To use this component, you will need to activate the experimental mode of your world, to ensure that the addon works.
-<p align="center"><img src="https://github.com/DeathAruban/Chat-Ranks-MCBE/blob/main/img/experimental.png" loading="eager" /></p>
-Inside the world you will have 4 commands available
-
-#Warning
-##The following addon uses the experimental mode of Minecraft Bedrock, which can be activated from the world settings.
+# Warning
+## The following addon uses the experimental mode of Minecraft Bedrock, which can be activated from the world settings.
 Remember that the update of Chat Ranks + v1.0.3 only supports version 1.20.80. For previous versions, download v1.0.0-1.0.1, but these do not have the latest additions.
 <p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_2.png" loading="eager" /></p>
 
-- -rank help   (to see all commands available for rank)
-- -rank list   (opens a form in which you can see the list of permissions, to add more modify the scripts file config)
-- -rank add    (opens a form in which you can add permission to a player)
-- -rank remove   (opens a form in which you can remove permission to a player)
-
-obviously to use the commands you must have admin permissions
-then you will need to add the tag
-```json5
-tag @s add admin
-```
-```json5
-tag @s add mod
-```
-obviously these are the ones present in the config file that you find in script, which you can modify as you wish
-```json5
-access_command:["admin","mod"],
-```
-with the -rank help command you will find the list of all available commands.
-<p align="center"><img src="https://github.com/DeathAruban/Chat-Ranks-MCBE/blob/main/img/help.png" loading="eager" /></p>
-with the -rank list command you will find a list of ranks available in your world
-<p align="center"><img src="https://github.com/DeathAruban/Chat-Ranks-MCBE/blob/main/img/list.png" loading="eager" /></p>
-with the -rank add command a UI will appear in which you first select the player and then the rank you want to add
-<p align="center"><img src="https://github.com/DeathAruban/Chat-Ranks-MCBE/blob/main/img/add.png" loading="eager" /></p>
-with the -rank remove command a UI will appear in which you first select the player and then the rank you want to remove from the player
-<p align="center"><img src="https://github.com/DeathAruban/Chat-Ranks-MCBE/blob/main/img/add.png" loading="eager" /></p>
-
-## Configuration
-Inside the addon, in the ‘scripts’ folder, you will find a file named ‘config’. There you will already find a preconfigured list of ranks, which you can modify to your liking, adding or removing the existing ones.
-```json5
-        2:{
-            tag:'admin', 
-            chat_display:'§8[§dAdmin§8]',
-            chat_display_after:'§a>>', 
-            chat_color:'§2', 
-            name_player_color:'§4', 
-            description:'Has a high level of control over the server, often can change gameplay and has permission to ban or unban players'
-        },
-```
-for example if the player has an admin in chat he will have those possibilities listed above
-
-- tag:' '  the tag that the player must have to have changes in chat
-- chat_display:' ' as you will see the first part of the player role chat
-- chat_display_after:' ' what will be after the player's name
-- chat_color:' ' the color of the message the player sends 
-- name_player_color:' ' color of the player's name that will be seen in chat
-- description: ' ' the tag description you will see with the -rank list command
-
-example of how it looks in chat:
-<p align="center"><img src="https://github.com/DeathAruban/Chat-Ranks-MCBE/blob/main/img/chat.png" loading="eager" /></p>
-Instead, in the case of a common player, therefore without rank, you have two possibilities: to show the chat in a standard or modified way. You just need to set ‘true’ or ‘false’ on ‘default’ in ‘config’.
-
-```json5
-        1:{
-            default:true, here
-            chat_display:'§8[§asteve§8]',
-            chat_display_after:'§8>>',
-            name_player_color:'§f',
-            chat_color:'§f'
-        },
-```
-
-example of how it looks in chat:
-<p align="center"><img src="https://github.com/DeathAruban/Chat-Ranks-MCBE/blob/main/img/base.png" loading="eager" /></p>
+# What does our Chat Rank+ offer?
+Multi Rank System
+Score Rank System
+Auto Mute System
+Auto Ban Words System
+Broadcast System
+Saving Player Messages System
+Maximum Customization And Configuration
 
 # How to install
 
