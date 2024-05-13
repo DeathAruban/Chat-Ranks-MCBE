@@ -33,6 +33,11 @@ With this addon, you will have the opportunity to radically transform your world
 <p align="center"><img src="https://github.com/DeathAruban/Chat-Ranks-MCBE/blob/main/img/experimental.png" loading="eager" /></p>
 Inside the world you will have 4 commands available
 
+#Warning
+##The following addon uses the experimental mode of Minecraft Bedrock, which can be activated from the world settings.
+Remember that the update of Chat Ranks + v1.0.3 only supports version 1.20.80. For previous versions, download v1.0.0-1.0.1, but these do not have the latest additions.
+<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_2.png" loading="eager" /></p>
+
 - -rank help   (to see all commands available for rank)
 - -rank list   (opens a form in which you can see the list of permissions, to add more modify the scripts file config)
 - -rank add    (opens a form in which you can add permission to a player)
