@@ -15,6 +15,8 @@
 </p>
 
 
+https://mcpedl.com/dashboard/submit/214662/
+
 # Description
 With this addon, you will have the opportunity to radically transform your world, realm, or dedicated server. This extraordinary tool will allow you to assign a distinctive rank to your members, giving a sense of belonging and recognition. Moreover, you will have the possibility to customize the chat in a myriad of ways, making it a unique place for interaction and communication. You can decorate it with vibrant colors, fun emoticons, artistic fonts, and much more. The only limit to what you can do is your imagination. Make the most of this addon and take your virtual world to a completely new level!
 
