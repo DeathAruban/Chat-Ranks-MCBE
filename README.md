@@ -34,13 +34,78 @@ Remember that the update of Chat Ranks + v1.0.3 only supports version 1.20.80. F
 <p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_2.png" loading="eager" /></p>
 
 # What does our Chat Rank+ offer?
-Multi Rank System
-Score Rank System
-Auto Mute System
-Auto Ban Words System
-Broadcast System
-Saving Player Messages System
-Maximum Customization And Configuration
+- Multi Rank System
+- Score Rank System
+- Auto Mute System
+- Auto Ban Words System
+- Broadcast System
+- Saving Player Messages System
+- Maximum Customization And Configuration
+
+# Commands Chat Ranks+
+Remember that the prefix of the command ‘-’ can be changed in the configuration file. So, you can start commands with any symbol you want, like ‘!’, ‘.’, ‘_’, etc. You will be free to choose. Moreover, when players execute the command ‘-rank help’, they will only see the commands they have access to, which you can customize in the configuration file.
+
+- -rank add (opens a form in which you can add permission to a player)
+- -rank remove (opens a form in which you can remove permission to a player)
+- -rank list (opens a form in which you can see the list of permissions, to add more modify the scripts file config)
+- -rank help (to see all commands available for rank)
+- -rank menu (open a menu with all the rank options)
+- -rank log (open the player message log)
+- -rank mute (open list mute and unmute players)
+- -rank info (see add-on version)
+
+# Multi Rank System
+You can add more ranks to the player, which will be visible in chat, and you can customize them as you wish.
+<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_3.png" loading="eager" /></p>
+Here you can use the following commands to add and remove the rank to the player.
+| -rank add | -rank remove | -rank menu |
+<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_4.png" loading="eager" /></p>
+
+# Score Rank System
+Do you want to add a special touch to your world? Do you want to create a level-based mode or a prison where players can see their level or score in chat? Now it’s possible.
+<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_5.png" loading="eager" /></p>
+Remember that when you add the score in chat, the scoreboard and the player must have a score on that scoreboard, otherwise it will not work.
+
+# Auto Mute System
+The following addon is equipped with an automated system to monitor players and prevent spam messages in chat. Obviously, the system can be disabled and customized as desired.
+<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_6.png" loading="eager" /></p>
+In addition to the automated system, you can mute and unmute players whenever you want, through commands or the menu.
+| -rank mute | -rank menu |
+<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_7.png" loading="eager" /></p>
+
+# Auto Ban Words System
+This system allows you to ban certain words that you don’t want players to write in chat. You can give a warning to players that, after a certain number of times they say that word, they will be muted. Obviously, the system can be disabled and customized as you wish.
+<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_8.png" loading="eager" /></p>
+
+# Broadcast System
+The system is equipped with messages that will be sent to all players every so often, of warning or whatever you desire. You can disable it whenever you want and customize it as you prefer from the file config.
+<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_9.png" loading="eager" /></p>
+
+# Saving Player Messages System
+Thanks to this system, you can review the messages written by players and make revisions or whatever you desire. You will have a menu with all the names of the players who have written and, in case there are many, you can search for them by writing the name to see their messages. You can even search within the players’ messages if you are looking for something specific. Obviously, this part can also be disabled from the configuration file. The system is equipped with a function that, after a certain period of time, resets the database. Whoever has the command permissions for the menu, remove, add or log, will be notified via message that the database has been reset.
+| -rank log | -rank menu |
+<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_10.png" loading="eager" /></p>
+Obviously, in addition to seeing the player’s messages, you can also remove the player’s messages with the appropriate button present when you view all of his messages.
+
+# Maximum Customization And Configuration
+Chat Rank+ offers maximum customization according to your tastes. Just go to the path of your addon, look for the Chat Rank+ folder, then on ‘scripts’ and finally on the ‘config’ file, where you can set the ranks and everything else as you like.
+
+- 🖥️ Pc: 
+```bash
+%userprofile%\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\
+```
+- 📱Android:
+ ```bash
+/Android/data/com.mojang.minecraftpe/files/games/com.mojang/
+```
+- 📱Ios: 
+ ```bash
+/On My iPhone/Minecraft/games/com.mojang/
+```
+
+Remember that if the addon is inserted in the ‘behavior_packs’ folder, the changes made will not work when you enter the world or when you run the ‘/reload’ command to reload the scripts. To have real-time changes, the addon must be inserted in the ‘development_behavior_packs’ folder.
+  
+
 
 # How to install
 
