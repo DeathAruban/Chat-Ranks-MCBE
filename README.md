@@ -34,12 +34,12 @@ With this addon, you will have the opportunity to radically transform your world
 ## Direct download
 Click on the arrow to select which version you want to download, and choose whether you prefer to download the mcpack or zip version.
 
-| MCBE | Addon version | MCPACK | ZIP |
-| ------- | ------------------ | ------------------ | ------------------ | 
-| 1.20.80   | v1.0.3 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.3/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.3/Chat.Ranks+.zip) |
-| 1.20.80   | v1.0.2 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.2/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.2/Chat.Ranks+.zip) |
-| 1.20.71   | v1.0.1 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.1/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.1/Chat.Ranks+.zip) |
-| 1.20.62   | v1.0.0 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.0/Chat_Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.0/Chat_Ranks+.zip) |
+| MCBE | Addon version | MCPACK | ZIP | Changelog |
+| ------- | ------------------ | ------------------ | ------------------ | ------------------ | 
+| 1.20.80   | v1.0.3 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.3/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.3/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.3) |
+| 1.20.80   | v1.0.2 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.2/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.2/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.2) |
+| 1.20.71   | v1.0.1 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.1/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.1/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.1) |
+| 1.20.62   | v1.0.0 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.0/Chat_Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.0/Chat_Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.0) |
 
 
 # Warning
