@@ -34,10 +34,10 @@ With this addon, you will have the opportunity to radically transform your world
 ## Direct download
 | MCBE | Addon version | MCPACK | ZIP |
 | ------- | ------------------ | ------------------ | ------------------ | 
-| 1.20.80   | v1.0.3 | [:x:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.3/Chat.Ranks+.mcpack) | [:x:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.3/Chat.Ranks+.zip) |
-| 1.20.80   | v1.0.2 | [:x:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.2/Chat.Ranks+.mcpack) | [:x:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.2/Chat.Ranks+.zip) |
-| 1.20.71   | v1.0.1 | [:x:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.1/Chat.Ranks+.mcpack) | [:x:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.1/Chat.Ranks+.zip) |
-| 1.20.62   | v1.0.0 | [:x:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.0/Chat_Ranks+.mcpack) | [:x:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.0/Chat_Ranks+.zip) |
+| 1.20.80   | v1.0.3 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.3/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.3/Chat.Ranks+.zip) |
+| 1.20.80   | v1.0.2 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.2/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.2/Chat.Ranks+.zip) |
+| 1.20.71   | v1.0.1 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.1/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.1/Chat.Ranks+.zip) |
+| 1.20.62   | v1.0.0 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.0/Chat_Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.0/Chat_Ranks+.zip) |
 
 
 # Warning
