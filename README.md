@@ -54,6 +54,7 @@ Remember that the prefix of the command ‘-’ can be changed in the configurat
 - -rank log (open the player message log)
 - -rank mute (open list mute and unmute players)
 - -rank info (see add-on version)
+  
 <details>
 <summary>scripts/config</summary>
 
@@ -76,6 +77,7 @@ You can add more ranks to the player, which will be visible in chat, and you can
 Here you can use the following commands to add and remove the rank to the player.
 | -rank add | -rank remove | -rank menu |
 <p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_4.png" loading="eager" /></p>
+
 <details>
 <summary>scripts/config</summary>
 
@@ -230,6 +232,7 @@ remove               | Provides access to the command to remove the rank. |
 Do you want to add a special touch to your world? Do you want to create a level-based mode or a prison where players can see their level or score in chat? Now it’s possible.
 <p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_5.png" loading="eager" /></p>
 Remember that when you add the score in chat, the scoreboard and the player must have a score on that scoreboard, otherwise it will not work.
+
 <details>
 <summary>scripts/config</summary>
 
@@ -274,6 +277,7 @@ The following addon is equipped with an automated system to monitor players and 
 In addition to the automated system, you can mute and unmute players whenever you want, through commands or the menu.
 | -rank mute | -rank menu |
 <p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_7.png" loading="eager" /></p>
+
 <details>
 <summary>scripts/config</summary>
 
@@ -312,6 +316,7 @@ Auto mute system serves to provide automatic support to avoid chat spam
 # Auto Ban Words System
 This system allows you to ban certain words that you don’t want players to write in chat. You can give a warning to players that, after a certain number of times they say that word, they will be muted. Obviously, the system can be disabled and customized as you wish.
 <p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_8.png" loading="eager" /></p>
+
 <details>
 <summary>scripts/config</summary>
 
@@ -356,6 +361,7 @@ system to control the words you want to ban in your world/realm/server
 # Broadcast System
 The system is equipped with messages that will be sent to all players every so often, of warning or whatever you desire. You can disable it whenever you want and customize it as you prefer from the file config.
 <p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_9.png" loading="eager" /></p>
+
 <details>
 <summary>scripts/config</summary>
 
@@ -397,6 +403,7 @@ Thanks to this system, you can review the messages written by players and make r
 | -rank log | -rank menu |
 <p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_10.png" loading="eager" /></p>
 Obviously, in addition to seeing the player’s messages, you can also remove the player’s messages with the appropriate button present when you view all of his messages.
+
 <details>
 <summary>scripts/config</summary>
 
