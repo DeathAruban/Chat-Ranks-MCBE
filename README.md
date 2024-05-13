@@ -204,6 +204,7 @@ Here you can configure the rank tags for your world/realm or server exactly as y
 - level:0,                              | Here you will decide that in case of multiple ranks, which one will have priority on the decorative part that will be done on the message |
 - score:""                              | Here you will enter the scoreboard from which the player’s score will be taken |
 - message:""                            | Here you can decide how to decorate the player’s chat with that rank, also using keywords listed below |
+  
 Keywords to be inserted into the message
 
 - $player               | Used to indicate the player’s name |
