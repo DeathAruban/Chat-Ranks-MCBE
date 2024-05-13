@@ -22,12 +22,23 @@ With this addon, you will have the opportunity to radically transform your world
 ## Language support 🌍
 - English (United States)
 - English (United Kingdom)
-- if you find errors or your language is missing, send me a message, if you provide me with a correct translation I will add credits for support 🤝
+- if you find errors or your language is missing, send me a message, if you provide me with a correct translation I will add credits for support 🤝  
 
 | Supported | World | Realms |Server Dedicated | Custom servers | Windows | Mobile | PS4/PS5 | Xbox | Nintendo Switch |
 | ------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |
 | 1.20.80   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 1.20.71   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| 1.20.62   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | previous versions   | :x:  | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | 
+
+## Direct download
+| MCBE | Addon version | MCPACK | ZIP |
+| ------- | ------------------ | ------------------ | ------------------ | 
+| 1.20.80   | v1.0.3 | [:x:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.3/Chat.Ranks+.mcpack) | [:x:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.3/Chat.Ranks+.zip) |
+| 1.20.80   | v1.0.2 | [:x:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.2/Chat.Ranks+.mcpack) | [:x:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.2/Chat.Ranks+.zip) |
+| 1.20.71   | v1.0.1 | [:x:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.1/Chat.Ranks+.mcpack) | [:x:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.1/Chat.Ranks+.zip) |
+| 1.20.62   | v1.0.0 | [:x:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.0/Chat_Ranks+.mcpack) | [:x:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.0/Chat_Ranks+.zip) |
+
 
 # Warning
 ## The following addon uses the experimental mode of Minecraft Bedrock, which can be activated from the world settings.
