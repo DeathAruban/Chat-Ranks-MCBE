@@ -32,6 +32,8 @@ With this addon, you will have the opportunity to radically transform your world
 | previous versions   | :x:  | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | 
 
 ## Direct download
+Click on the arrow to select which version you want to download, and choose whether you prefer to download the mcpack or zip version.
+
 | MCBE | Addon version | MCPACK | ZIP |
 | ------- | ------------------ | ------------------ | ------------------ | 
 | 1.20.80   | v1.0.3 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.3/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.3/Chat.Ranks+.zip) |
