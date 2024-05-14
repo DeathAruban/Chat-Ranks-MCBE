@@ -41,6 +41,12 @@ Click on the arrow to select which version you want to download, and choose whet
 | 1.20.71   | v1.0.1 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.1/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.1/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.1) |
 | 1.20.62   | v1.0.0 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.0/Chat_Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.0/Chat_Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.0) |
 
+## Sites where I have published Addons
+| Site | Link |
+| ------- | ------------------ |
+| MCPEDL | [:arrow_down:](https://mcpedl.com/chat-ranks) |
+| Curseforge | [:arrow_down:](https://www.curseforge.com/minecraft-bedrock/addons/chat-rank) |
+| Modbay | [:arrow_down:](https://modbay.org/user/DeathAruban) |
 
 # Warning
 ## The following addon uses the experimental mode of Minecraft Bedrock, which can be activated from the world settings.
