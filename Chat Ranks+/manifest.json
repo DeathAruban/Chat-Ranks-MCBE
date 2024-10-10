@@ -30,7 +30,7 @@
 		"description": "will give you maximum ability to edit player chat",
 		"min_engine_version": [1,20,60],
 		"uuid": "a8702f75-a069-43f2-b05b-5a5b95fa386c",
-		"version": [1,0,4]
+		"version": [1,0,2]
 	},
 	"modules": [
 		{
@@ -47,7 +47,7 @@
 		}
 	],
 	"dependencies": [
-		{"module_name": "@minecraft/server","version": "1.12.0-beta"},
+		{"module_name": "@minecraft/server","version": "1.15.0-beta"},
 		{"module_name": "@minecraft/server-ui","version": "1.1.0"}
 	]
 }

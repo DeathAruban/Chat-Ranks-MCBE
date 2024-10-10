@@ -205,7 +205,7 @@ export let config = {
      */
     
     broadcast:{
-        state:true,
+        state:false,
         message:[
             "§f[§dbroadcast§f] §8>> §bNew Add-on released on YouTube ",
             "§f[§dbroadcast§f] §8>> §bTry visiting our YouTube channel",
@@ -243,8 +243,7 @@ export let config = {
         message_mute:"§f[§bServer§f] §8>> §cYou have been mutated for sending too many forbidden words.",
         rank_immune:["admin","mod"],
         words:[
-            "test",
-            "test1"
+            "idiot"
         ]
     }
 }
