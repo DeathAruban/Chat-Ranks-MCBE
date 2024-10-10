@@ -1,6 +1,6 @@
 <p align="center">
      <a href="https://github.com/DeathAruban/Chat-Ranks-MCBE">
-		<img src="https://api.mcpedl.com/storage/submissions/207806/images/chat-ranks_2.png" loading="eager" />
+		<img src="https://r2.mcpedl.com/submissions/207806/images/chat-ranks_2.png" loading="eager" />
 	</a><br>
 	<b>A highly customisable, Addon Chat Ranks+ for Minecraft: Bedrock Edition written in javascript MC (API 1.21)</b>
 <p align="center">
