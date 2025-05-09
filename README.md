@@ -82,10 +82,6 @@ Click the arrow to select the addon version you want to download. Choose between
 # ⚠️ Warning: Experimental Mode Required!
 For Chat Ranks+ to function correctly, **you MUST enable "Beta APIs" (formerly JavaScript Creator Features)** in your world settings.
 
-<p align="center">
-  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_2.png" loading="eager" alt="Enable Experimental Mode" />
-</p>
-
 Remember that newer addon versions (e.g., v1.0.3+) support specific Minecraft versions (e.g., 1.20.80+). For older MCBE versions, download older addon versions (e.g., v1.0.0-v1.0.1), keeping in mind they may not include all the latest features.
 
 # What Does Chat Ranks+ Offer? ✨
@@ -146,13 +142,6 @@ Be sure to consult your `config.js` file for all options and detailed comments.
 <summary>👑 Multi-Rank System and Message Formatting</summary>
 
 Assign and customize player ranks. Each rank can have a unique appearance in chat, specific commands, and a priority level for message formatting if multiple ranks are assigned.
-
-<p align="center">
-  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_3.png" loading="eager" alt="Multi-Rank Example" />
-</p>
-<p align="center">
-  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_4.png" loading="eager" alt="Add/Remove Rank Menu" />
-</p>
 
 **Configuration (`scripts/config/config.js` > `permission`):**
 
@@ -231,9 +220,7 @@ You assign these command strings to the `command` array for each rank to grant t
 
 Display a specific score (e.g., "level", "money") of a player directly in the chat format, fetching it from an existing scoreboard.
 
-<p align="center">
-  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_5.png" loading="eager" alt="Rank with Score Example" />
-</p>
+
 
 **Configuration (`scripts/config/config.js` > `permission` > `[rankName]`):**
 - `score: "scoreboard_name"`: Specifies the scoreboard objective to get the score from (e.g., `"level"`). Make sure this scoreboard objective exists in your world.
@@ -255,12 +242,6 @@ The player must have a score on the `level` scoreboard objective for `$score_poi
 
 Prevent spam by automatically muting players who send messages too quickly.
 
-<p align="center">
-  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_6.png" loading="eager" alt="Auto-Mute Example" />
-</p>
-<p align="center">
-  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_7.png" loading="eager" alt="Manual Mute Menu" />
-</p>
 
 **Configuration (`scripts/config/config.js` > `auto_mute`):**
 
@@ -281,9 +262,6 @@ Players manually muted or unmuted via commands will also receive corresponding m
 
 Filter unwanted words from chat. Players receive a warning, and after a configurable number of violations, they are muted.
 
-<p align="center">
-  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_8.png" loading="eager" alt="Ban Words Example" />
-</p>
 
 **Configuration (`scripts/config/config.js` > `ban_words`):**
 ban_words: {
@@ -306,9 +284,6 @@ words: [ // Array of words or phrases (case-insensitive) that are considered ban
 
 Send automatic, periodic messages to all online players.
 
-<p align="center">
-  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_9.png" loading="eager" alt="Broadcast Example" />
-</p>
 
 **Configuration (`scripts/config/config.js` > `broadcast`):**
 
@@ -332,9 +307,6 @@ Note: Your original example messages in the `message` array already included a p
 
 Records messages sent by players, mute information, and used banned words. Accessible via the `-rank log` command.
 
-<p align="center">
-  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_10.png" loading="eager" alt="Message Log Example" />
-</p>
 
 **Configuration (`scripts/config/config.js` > `database`):**
 
