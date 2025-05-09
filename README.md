@@ -99,7 +99,7 @@ Remember that newer addon versions (e.g., v1.0.3+) support specific Minecraft ve
 - **Maximum Customization and Configuration:** Modify every aspect via the `config.js` file.
 
 # Chat Ranks+ Commands ⌨️
-The default command prefix is `-` (e.g., `-rank help`), but it can be changed in the `scripts/config/config.js` file. Players will only see commands accessible to their rank when they run `-rank help`.
+The default command prefix is `-` (e.g., `-rank help`), but it can be changed in the `scripts/config.js` file. Players will only see commands accessible to their rank when they run `-rank help`.
 
 - `-rank add`: Opens a menu to assign a rank to a player.
 - `-rank remove`: Opens a menu to remove a rank from a player.
