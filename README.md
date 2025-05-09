@@ -113,294 +113,65 @@ The default command prefix is `-` (e.g., `-rank help`), but it can be changed in
 
 Use the item `da:chat_rank_menu` (if configured and available) to quickly open the `-rank menu`!
 
-# Detailed Features 🛠️
-
 <details>
 <summary>📂 Main Configuration File (`scripts/config/config.js`)</summary>
-
-The heart of Chat Ranks+ customization lies in the `config.js` file located in the `scripts` folder of the behavior pack.
-
-export let config = {
-prefix: "-", // Prefix for commands
-
-permission: { /* ...rank configuration... */ },
-auto_mute: { /* ...auto-mute configuration... */ },
-database: { /* ...log database configuration... */ },
-broadcast: { /* ...broadcast configuration... */ },
-ban_words: { /* ...ban words configuration... */ },
-time_zone: "UTC+2", // Time zone configuration
-proximity_chat: { /* ...proximity chat configuration... */ },
-belowname: { /* ...below name text configuration... */ },
-
-chat_rank_version: "1.10.0" // Do not modify
-};
-
-Be sure to consult your `config.js` file for all options and detailed comments.
+This is the central hub for all add-on customizations. Within this file, you can adjust settings for every feature, tailoring the add-on's behavior to perfectly suit your server's requirements and preferences.
 </details>
 
 <details>
 <summary>👑 Multi-Rank System and Message Formatting</summary>
-
-Assign and customize player ranks. Each rank can have a unique appearance in chat, specific commands, and a priority level for message formatting if multiple ranks are assigned.
-
-**Configuration (`scripts/config/config.js` > `permission`):**
-
-permission: {
-default: {
-state: true,
-rank: "§8[§asteve§8]",
-description: "Basic server role",
-command: ["help", "info"],
-score: "", // Scoreboard name for $score_point
-message: "$rank §f$player §8>> §f$message"
-},
-admin: {
-state: true,
-rank: "§8[§dAdmin§8]",
-description: "Has a high level of control over the server, often can change gameplay and has permission to ban or unban players",
-command: ["list", "help", "add", "remove", "menu", "log", "mute", "info", "name"],
-level: 0, // Highest priority
-score: "level",
-// Example with $rainbow and $score_point
-message: "§f[§8Level: §b$score_point§f]$rank $rainbow§4$player§r §a>> §2$message"
-},
-mod: {
-state: true,
-rank: "§8[§aMod§8]",
-description: "This role helps maintain order in the server, can ban or unban players, and often answers player questions",
-command: ["help", "info", "list", "add", "remove", "menu", "log", "mute"],
-score: "",
-level: 1,
-message: "$rank §d$player §d>> §5$message"
-},
-helper: {
-state: true,
-rank: "§8[§dHelper§8]",
-description: "This role is often given to players who are willing to help other players. They usually do not have moderation permissions.",
-command: ["help", "info", "list", "mute"],
-score: "",
-level: 2,
-message: "$rank §a$player §8>> §f$message"
-},
-builder: {
-state: true,
-rank: "§8[§8Builder§8]",
-description: "This role is given to players who contribute to building structures in the server.",
-command: ["help", "info", "list"],
-score: "",
-level: 3,
-message: "$rank §f$player §8>> §3$message"
-},
-vip: {
-state: true,
-rank: "§8[§6Vip§8]",
-description: "This is a role often given to donors or long-time players. They might have some special perks.",
-command: ["help", "info"],
-score: "",
-level: 4,
-message: "$rank §e$player §8>> §6$message"
-}
-// ...add more custom ranks as needed
-}
-
-**Keywords for `message`:**
-- `$player`: Player's name (or custom name if set).
-- `$message`: Player's original message.
-- `$rank`: Player's primary rank text (based on `level` priority if multiple ranks are assigned; otherwise, it shows concatenated ranks by default based on `chat_rank.js` logic for `$rank`).
-- `$score_point`: Player's score from the scoreboard specified in `score`.
-- `$rainbow`: Applies a rainbow effect to the following text (until `§r` is encountered).
-
-**Available commands for ranks (defined in `permission[rankName].command` array):**
-`add`, `remove`, `list`, `help`, `menu`, `log`, `mute`, `info`, `name`.
-You assign these command strings to the `command` array for each rank to grant them access.
+This feature allows you to create and manage a sophisticated hierarchy of player ranks (e.g., Administrator, Moderator, VIP, Member). Each rank can be assigned a unique chat appearance, including custom prefixes, colors, and specific message formatting. It also controls which commands players of a certain rank can access, and defines how their chat messages are displayed to others.
 </details>
 
 <details>
 <summary>📈 Score-Based Rank System</summary>
-
-Display a specific score (e.g., "level", "money") of a player directly in the chat format, fetching it from an existing scoreboard.
-
-
-
-**Configuration (`scripts/config/config.js` > `permission` > `[rankName]`):**
-- `score: "scoreboard_name"`: Specifies the scoreboard objective to get the score from (e.g., `"level"`). Make sure this scoreboard objective exists in your world.
-- `message: "...$score_point..."`: Use the `$score_point` keyword in the message template to display the score.
-
-**Example (within a rank like `admin` in the `permission` object):**
-
-    admin:{
-        // ... other admin settings
-        score:"level",  
-        message:"§f[§8Level: §b$score_point§f]$rank §4$player §a>> §2$message"
-    }
-
-The player must have a score on the `level` scoreboard objective for `$score_point` to display correctly. If the score or objective is not found, it defaults to "0" or may not appear as expected depending on internal handling.
+This system enables the dynamic display of a player's specific score—such as their in-game level, currency amount, kill count, or any other tracked statistic—directly within their chat messages. The score is automatically fetched from an existing scoreboard objective within your Minecraft world.
 </details>
 
 <details>
 <summary>🤫 Auto-Mute System</summary>
-
-Prevent spam by automatically muting players who send messages too quickly.
-
-
-**Configuration (`scripts/config/config.js` > `auto_mute`):**
-
-auto_mute: {
-state: true, // true to enable, false to disable
-time_spam: 200, // Minimum time in ticks between messages from a player to avoid being muted (20 ticks = 1 second). Default is 200 ticks (10 seconds).
-// The actual messages for "You've been muted...", "You cannot write...", "You have been unmuted!" are handled by
-// the addon's internal translation files (e.g., using keys like 'chatrank.mute.message').
-// Your original README listed example messages here, but these are typically for localization in the addon itself.
-rank_immune: ["admin", "mod"] // Array of rank tags (e.g., "admin") that are exempt from auto-mute.
-}
-
-Players manually muted or unmuted via commands will also receive corresponding messages.
+Designed to combat chat spam, this system automatically mutes players who send messages too rapidly. This helps maintain a clean, readable, and enjoyable chat environment for all users. The sensitivity, such as the message rate threshold and mute duration, can be configured.
 </details>
 
 <details>
 <summary>🤬 Auto Ban-Words System</summary>
-
-Filter unwanted words from chat. Players receive a warning, and after a configurable number of violations, they are muted.
-
-
-**Configuration (`scripts/config/config.js` > `ban_words`):**
-ban_words: {
-state: true, // true to enable, false to disable
-time: 3, // Number of times a player can send a message containing any banned word before being automatically muted.
-// The messages for "The following word is banned..." and "You have been muted for sending..."
-// are typically handled by the addon's internal translation files.
-rank_immune: ["admin", "mod"], // Array of rank tags exempt from the banned word filter.
-words: [ // Array of words or phrases (case-insensitive) that are considered banned.
-"test", // Example, likely too common for real use
-"test1"
-// "another bad phrase"
-]
-}
-
+This feature actively filters chat messages for specific words or phrases that you designate as forbidden. Players attempting to use these banned terms will receive warnings, and after a configurable number of repeated violations, they can be automatically muted, promoting a more respectful chat.
 </details>
 
 <details>
 <summary>📢 Broadcast System</summary>
-
-Send automatic, periodic messages to all online players.
-
-
-**Configuration (`scripts/config/config.js` > `broadcast`):**
-
-broadcast: {
-state: true, // true to enable, false to disable
-prefix: "§f[§dbroadcast§f] §8>> ", // Optional prefix to display before each broadcast message.
-message: [ // An array of messages to broadcast. Messages are sent sequentially, looping back.
-"§f[§dbroadcast§f] §8>> §bNew Add-on released on YouTube ", // Your original examples
-"§f[§dbroadcast§f] §8>> §bTry visiting our YouTube channel",
-"§f[§dbroadcast§f] §8>> §bBest server exists in Minecraft Bedrock",
-"§f[§dbroadcast§f] §8>> §dDiscord code §aNKy9A9RAe8"
-],
-time: 200 // Time interval in ticks between sending each broadcast message (20 ticks = 1 second). 200 ticks = 10 seconds (quite fast).
-}
-
-Note: Your original example messages in the `message` array already included a prefix-like structure. You can simplify by putting the common prefix in the `prefix` field and having just the core messages in the `message` array.
+Allows for the scheduling and automatic delivery of periodic messages to all online players. This is highly useful for server-wide announcements, broadcasting important rule reminders, notifying players about upcoming events, or sharing any other relevant information.
 </details>
 
 <details>
 <summary>💾 Message Saving System (Log)</summary>
-
-Records messages sent by players, mute information, and used banned words. Accessible via the `-rank log` command.
-
-
-**Configuration (`scripts/config/config.js` > `database`):**
-
-database: {
-state: true, // true to enable logging, false to disable.
-// Database_name: "ChatSendSave" - This seems to be an internal prefix for dynamic properties. Not directly for user display.
-reset_time_state: true, // If true, the message history (not full player data like mutes/ban stats) for players is cleared periodically.
-max_message: 200,       // Maximum number of messages to store per player. Older messages are removed.
-reset_time: 30000000,   // Time interval in ticks at which the message database is cleared (if reset_time_state is true). 30,000,000 ticks is very long (over 17 real-world days).
-// 1,209,600 ticks = 7 days.
-// reset_message: The message "The messages in the Database have been reset!" is handled by internal translations
-// and sent to players with specific permissions (log, add, remove, menu).
-}
-
-- Logs are stored using world dynamic properties, which have storage limits.
-- The automatic reset (`reset_time_state`) clears only the chat message history part of the player's logged data.
-- Players with permissions for `add`, `remove`, `menu`, or `log` commands are notified when the database reset occurs.
-- The log interface allows viewing messages, mute history, and banned word occurrences for each player, and also allows resetting parts of a player's data.
+This system meticulously records all chat messages sent by players. It also logs crucial administrative actions, such as when players are muted or when banned words are used. These comprehensive logs can be accessed by administrators for monitoring chat activity, reviewing player conduct, and troubleshooting.
 </details>
 
 <details>
 <summary>👁️ Below Name Display (Belowname)</summary>
-
-Customize the text that appears above players' heads (nametag). This is useful for showing ranks, health, the player's last sent chat message, and more.
-
-**Configuration (`scripts/config/config.js` > `belowname`):**
-
-belowname: {
-state: true, // true to enable custom below-name text, false for default nametags.
-// Use '\n' for new lines. Available keywords:
-// $player: Displays the player's name (or their custom name if set via -rank name).
-// $rank: Displays the player's primary rank text (determined by the lowest 'level' in permission settings).
-// $multirank: Displays all of the player's assigned rank texts (from permission), usually space-separated.
-// $life: Displays the player's current health points numerically.
-// $message: Displays the player's last sent chat message. (Note: This is visible for a short duration, approx. 10 seconds, and might be visually spammy).
-text: "$multirank\n$player\n§c♥$life \n$message " // Example from your config.js
-// Simpler example: "$rank\n$player §c♥$life"
-}
-
-The `-rank name` command is used to manage the custom names that `$player` will display if set.
+This feature allows you to customize the text displayed directly above a player's head (technically below their Minecraft nametag). It can be configured to show various pieces of dynamic information, such as their current rank, health points, their most recently sent chat message, or other custom details.
 </details>
 
 <details>
 <summary>🗣️ Proximity Chat</summary>
-
-When enabled, chat messages are only visible to players within a defined radius of the sender.
-
-**Configuration (`scripts/config/config.js` > `proximity_chat`):**
-
-proximity_chat: {
-state: false, // Set to true to enable proximity chat as the default chat mode.
-range: 10     // The radius (in blocks) from the sender within which messages are visible to other players.
-// Your config has a default of 10, the original README example was 50.
-}
-**Note:** The `chat_rank.js` file does not explicitly mention a prefix (e.g., `!message`) for sending global messages when proximity chat is enabled. If this feature is desired, it would need to be implemented or clarified.
+When this feature is enabled, chat messages sent by a player will only be visible to other players who are within a specified radius (measured in blocks) of the sender. This creates a more immersive and realistic local chat experience, where distant conversations aren't globally spammed. The effective range is configurable.
 </details>
 
 <details>
 <summary>👤 Player Name Customization</summary>
-
-Allows administrators to set a custom display name for players using a command. This custom name is then used in chat messages (via the `$player` keyword) and in the "belowname" display.
-
-**Command:** `-rank name`
-This command opens a UI for:
-- Selecting a player.
-- Setting a new custom name for the selected player.
-- Resetting a player's custom name back to their original Minecraft username.
-
-The custom name is stored as a dynamic property on the player entity using the key `"ChatRank+"`.
+Administrators are given the ability to set custom display names for players. This chosen name will then be used instead of their default Minecraft username in chat messages and in the text displayed above their head (Belowname), allowing for nicknames or thematic naming.
 </details>
 
 <details>
 <summary>🕒 Time Zone Configuration</summary>
-
-Set the time zone to ensure that timestamps recorded in the chat logs (viewable with `-rank log`) are accurate for your server's primary audience or your administrative needs.
-
-**Configuration (`scripts/config/config.js` > `time_zone`):**
-
-time_zone: "UTC+2" // Example: Central European Summer Time (CEST).
-// Format should be "UTC±H" or "UTC±HH:MM" (e.g., "UTC-5", "UTC+5:30", "UTC+0").
-
-This setting adjusts the time recorded by the `ChatLogger` class.
+This setting allows you to define the server's correct time zone. By doing so, all timestamps recorded in the chat logs—such as when a message was posted, a player was muted, or an event occurred—will be accurate and consistent, reflecting the local time relevant to your server or administrative team.
 </details>
 
 # Maximum Customization
 Chat Ranks+ offers extensive customization through its `config.js` file.
 Locate this file typically at: `[Your Addon Behavior Pack Folder]/scripts/config.js`
-(The exact path depends on your addon's folder structure; your `chat_rank.js` imports it as `../config.js`, meaning it's usually one directory level above the file performing the import, or in a `config` subfolder if the import path was `./config.js` from within the `scripts` directory).
-
 Edit this file to tailor ranks, messages, timings, and all other features to your specific needs.
-
-
-
-
 
 - 🖥️ Pc: 
 ```bash
