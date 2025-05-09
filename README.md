@@ -1,476 +1,434 @@
 <p align="center">
-     <a href="https://github.com/DeathAruban/Chat-Ranks-MCBE">
-		<img src="https://r2.mcpedl.com/submissions/207806/images/chat-ranks_2.png" loading="eager" />
-	</a><br>
-	<b>A highly customisable, Addon Chat Ranks+ for Minecraft: Bedrock Edition written in javascript MC (API 1.21.80 )</b>
-<p align="center">
-<a href="https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/latest"><img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/DeathAruban/Chat-Ranks-MCBE?label=release&sort=semver"></a>
-<a href="https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/latest"><img alt="GitHub release (latest by SemVer)" src="https://img.shields.io/github/downloads/DeathAruban/Chat-Ranks-MCBE/latest/total?sort=semver"></a>
-<img alt="PingPong status" src="https://img.shields.io/pingpong/status/sp_7b7ce509b36c47ee9b20d041d018dc0a">
-<br>
-<a href="https://discord.gg/NKy9A9RAe8"><img src="https://img.shields.io/discord/935017716350320670?label=discord&color=7289DA&logo=discord" alt="Discord" /></a>
-<a href="https://github.com//DeathAruban/Chat-Ranks-MCBE/releases"><img alt="GitHub all releases" src="https://img.shields.io/github/downloads/DeathAruban/Chat-Ranks-MCBE/total?label=downloads%40total"></a>
-<img alt="YouTube Video Views" src="https://img.shields.io/youtube/views/axPOtFdQQwc?style=social">
-<img alt="GitHub" src="https://img.shields.io/github/license/DeathAruban/Chat-Ranks-MCBE">
+  <a href="https://github.com/DeathAruban/Chat-Ranks-MCBE">
+    <img src="https://r2.mcpedl.com/submissions/207806/images/chat-ranks_2.png" loading="eager" alt="Chat Ranks+ Logo" width="300"/>
+  </a>
+  <br>
+  <b>A highly customizable Addon, Chat Ranks+ for Minecraft: Bedrock Edition written in JavaScript (Minecraft Bedrock API 1.21.80+)</b>
 </p>
 
-
+<p align="center">
+  <a href="https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/latest"><img alt="Latest GitHub Release" src="https://img.shields.io/github/v/release/DeathAruban/Chat-Ranks-MCBE?label=release&sort=semver&color=blueviolet"></a>
+  <a href="https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/latest"><img alt="Latest Release Downloads" src="https://img.shields.io/github/downloads/DeathAruban/Chat-Ranks-MCBE/latest/total?sort=semver&color=success"></a>
+  <img alt="PingPong Status" src="https://img.shields.io/pingpong/status/sp_7b7ce509b36c47ee9b20d041d018dc0a">
+  <br>
+  <a href="https://discord.gg/NKy9A9RAe8"><img src="https://img.shields.io/discord/935017716350320670?label=discord&color=7289DA&logo=discord" alt="Discord Server"></a>
+  <a href="https://github.com/DeathAruban/Chat-Ranks-MCBE/releases"><img alt="Total GitHub Downloads" src="https://img.shields.io/github/downloads/DeathAruban/Chat-Ranks-MCBE/total?label=downloads%40total&color=informational"></a>
+  <a href="https://www.youtube.com/watch?v=axPOtFdQQwc"><img alt="YouTube Video Views" src="https://img.shields.io/youtube/views/axPOtFdQQwc?style=social"></a>
+  <a href="https://github.com/DeathAruban/Chat-Ranks-MCBE/blob/main/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/DeathAruban/Chat-Ranks-MCBE?color=lightgrey"></a>
+</p>
 
 # Description
-With this addon, you will have the opportunity to radically transform your world, realm, or dedicated server. This extraordinary tool will allow you to assign a distinctive rank to your members, giving a sense of belonging and recognition. Moreover, you will have the possibility to customize the chat in a myriad of ways, making it a unique place for interaction and communication. You can decorate it with vibrant colors, fun emoticons, artistic fonts, and much more. The only limit to what you can do is your imagination. Make the most of this addon and take your virtual world to a completely new level!
+Chat Ranks+ is an advanced addon for Minecraft: Bedrock Edition that revolutionizes player interaction and management in your world, realm, or dedicated server. Assign distinctive ranks, fully customize the chat with unique colors, formatting, and styles, and manage your community with powerful moderation and logging tools.
 
-## Language support 🌍
-- English (United States)
-- English (United Kingdom)
-- if you find errors or your language is missing, send me a message, if you provide me with a correct translation I will add credits for support 🤝  
+## Supported Languages 🌍
+This addon includes translations for the following languages:
+- English (United States) - `en_US`
+- English (United Kingdom) - `en_GB`
+- German (Germany) - `de_DE`
+- Spanish (Spain) - `es_ES`
+- French (France) - `fr_FR`
+- Italian (Italy) - `it_IT`
+- Japanese (Japan) - `ja_JP`
+- Portuguese (Portugal) - `pt_PT`
+- Russian (Russia) - `ru_RU`
+- Chinese (Simplified, China) - `zh_CN`
+- Turkish (Turkey) - `tr_TR`
 
-| Supported | World | Realms |Server Dedicated | Custom servers | Windows | Mobile | PS4/PS5 | Xbox | Nintendo Switch |
-| ------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |
-| 1.21.80   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| 1.21.73   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| 1.21.60   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| 1.21.51   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| 1.21.41   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| 1.21.31   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| 1.21.0   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| 1.20.80   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| 1.20.71   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| 1.20.62   |:white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| previous versions   | :x:  | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | 
+If you find translation errors or your language is missing, please contact me! If you provide a correct translation, you will be credited for your support. 🤝
 
-## Direct download
-Click on the arrow to select which version you want to download, and choose whether you prefer to download the mcpack or zip version.
+## Platform Compatibility and MCBE Versions 💻📱🎮
+| MCBE Ver. | World | Realms | Dedicated Server | Custom Servers | Windows | Mobile | PS4/PS5 | Xbox | Nintendo Switch |
+| :-------- | :----: | :-----: | :---------------: | :-------------: | :------: | :-----: | :------: | :---: | :---------------: |
+| 1.21.80+  |   ✅   |    ✅   |         ✅        |        ❌       |    ✅    |    ✅   |     ✅    |   ✅  |         ✅        |
+| 1.21.73   |   ✅   |    ✅   |         ✅        |        ❌       |    ✅    |    ✅   |     ✅    |   ✅  |         ✅        |
+| 1.21.60   |   ✅   |    ✅   |         ✅        |        ❌       |    ✅    |    ✅   |     ✅    |   ✅  |         ✅        |
+| 1.21.51   |   ✅   |    ✅   |         ✅        |        ❌       |    ✅    |    ✅   |     ✅    |   ✅  |         ✅        |
+| 1.21.41   |   ✅   |    ✅   |         ✅        |        ❌       |    ✅    |    ✅   |     ✅    |   ✅  |         ✅        |
+| 1.21.31   |   ✅   |    ✅   |         ✅        |        ❌       |    ✅    |    ✅   |     ✅    |   ✅  |         ✅        |
+| 1.21.0    |   ✅   |    ✅   |         ✅        |        ❌       |    ✅    |    ✅   |     ✅    |   ✅  |         ✅        |
+| 1.20.80   |   ✅   |    ✅   |         ✅        |        ❌       |    ✅    |    ✅   |     ✅    |   ✅  |         ✅        |
+| 1.20.71   |   ✅   |    ✅   |         ✅        |        ❌       |    ✅    |    ✅   |     ✅    |   ✅  |         ✅        |
+| 1.20.62   |   ✅   |    ✅   |         ✅        |        ❌       |    ✅    |    ✅   |     ✅    |   ✅  |         ✅        |
+| Previous  |   ❌   |    ❌   |         ❌        |        ❌       |    ❌    |    ❌   |     ❌    |   ❌  |         ❌        |
 
-| MCBE | Addon version | MCPACK | ZIP | Changelog |
-| ------- | ------------------ | ------------------ | ------------------ | ------------------ | 
-| 1.21.80   | v1.10.0 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.10.0/Chat.Rank+.1.1.0.mcaddon) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.9/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.10.0/Chat.Rank+.1.1.0.zip) |
-| 1.21.73   | v1.0.9 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.10.0/Chat.Rank+.1.0.9.mcaddon) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.9/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.9) |
-| 1.21.60   | v1.0.8 | :x: | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.8/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.8) |
-| 1.21.51   | v1.0.7 | :x: | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.7/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.7) |
-| 1.21.41   | v1.0.6 | :x: | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.6/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.6) |
-| 1.21.31   | v1.0.5 | :x: | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.5/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.5) |
-| 1.21.0   | v1.0.4 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.4/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.4/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.4) |
-| 1.20.80   | v1.0.3 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.3/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.3/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.3) |
-| 1.20.80   | v1.0.2 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.2/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.2/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.2) |
-| 1.20.71   | v1.0.1 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.1/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.1/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.1) |
-| 1.20.62   | v1.0.0 | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.0/Chat_Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.0/Chat_Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.0) |
+**Note:** Custom servers (like PocketMine, NukkitX, etc.) are not supported as the addon relies on native Minecraft Bedrock JavaScript APIs.
 
-## Sites where I have published Addons
-| Site | Link |
-| ------- | ------------------ |
-| MCPEDL | [:arrow_down:](https://mcpedl.com/chat-ranks) |
-| Curseforge | [:arrow_down:](https://www.curseforge.com/minecraft-bedrock/addons/chat-rank) |
-| Modbay | [:arrow_down:](https://modbay.org/user/DeathAruban) |
+## Direct Addon Download 🚀
+Click the arrow to select the addon version you want to download. Choose between `.mcaddon` format (automatic import) or `.zip` (manual installation).
 
-# Warning
-## The following addon uses the experimental mode of Minecraft Bedrock, which can be activated from the world settings.
-Remember that the update of Chat Ranks + v1.0.3 only supports version 1.20.80. For previous versions, download v1.0.0-1.0.1, but these do not have the latest additions.
-<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_2.png" loading="eager" /></p>
+| MCBE Version | Addon Version | MCPACK | ZIP | Changelog |
+| :----------- | :------------ | :----: | :---: | :-------: |
+| 1.21.80+     | v1.10.0       | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.10.0/Chat.Rank+.1.1.0.mcaddon) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.10.0/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.10.0) |
+| 1.21.73      | v1.0.9        | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.9/Chat.Rank+.1.0.9.mcaddon) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.9/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.9) |
+| 1.21.60      | v1.0.8        |    ❌    | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.8/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.8) |
+| 1.21.51      | v1.0.7        |    ❌    | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.7/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.7) |
+| 1.21.41      | v1.0.6        |    ❌    | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.6/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.6) |
+| 1.21.31      | v1.0.5        |    ❌    | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.5/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.5) |
+| 1.21.0       | v1.0.4        | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.4/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.4/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.4) |
+| 1.20.80      | v1.0.3        | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.3/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.3/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.3) |
+| 1.20.80      | v1.0.2        | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.2/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.2/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.2) |
+| 1.20.71      | v1.0.1        | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.1/Chat.Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.1/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.1) |
+| 1.20.62      | v1.0.0        | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.0/Chat_Ranks+.mcpack) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.0/Chat_Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.0) |
 
-# What does our Chat Rank+ offer?
-- Multi Rank System
-- Score Rank System
-- Auto Mute System
-- Auto Ban Words System
-- Broadcast System
-- Saving Player Messages System
-- Maximum Customization And Configuration
+**Note:** The changelog link for v1.10.0 currently points to a ZIP file. Ideally, it should link to the release notes page on GitHub.
 
-# Commands Chat Ranks+
-Remember that the prefix of the command ‘-’ can be changed in the configuration file. So, you can start commands with any symbol you want, like ‘!’, ‘.’, ‘_’, etc. You will be free to choose. Moreover, when players execute the command ‘-rank help’, they will only see the commands they have access to, which you can customize in the configuration file.
+## Sites Where the Addon is Published
+| Site       | Link                                                                         |
+| :--------- | :--------------------------------------------------------------------------- |
+| MCPEDL     | [:link:](https://mcpedl.com/chat-ranks)                                      |
+| Curseforge | [:link:](https://www.curseforge.com/minecraft-bedrock/addons/chat-rank)      |
+| Modbay     | [:link:](https://modbay.org/user/DeathAruban)                                |
 
-- -rank add (opens a form in which you can add permission to a player)
-- -rank remove (opens a form in which you can remove permission to a player)
-- -rank list (opens a form in which you can see the list of permissions, to add more modify the scripts file config)
-- -rank help (to see all commands available for rank)
-- -rank menu (open a menu with all the rank options)
-- -rank log (open the player message log)
-- -rank mute (open list mute and unmute players)
-- -rank info (see add-on version)
-  
+# ⚠️ Warning: Experimental Mode Required!
+For Chat Ranks+ to function correctly, **you MUST enable "Beta APIs" (formerly JavaScript Creator Features)** in your world settings.
+
+<p align="center">
+  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_2.png" loading="eager" alt="Enable Experimental Mode" />
+</p>
+
+Remember that newer addon versions (e.g., v1.0.3+) support specific Minecraft versions (e.g., 1.20.80+). For older MCBE versions, download older addon versions (e.g., v1.0.0-v1.0.1), keeping in mind they may not include all the latest features.
+
+# What Does Chat Ranks+ Offer? ✨
+- **Multi-Rank System:** Assign multiple visible ranks in chat, fully customizable.
+- **Score-Based Rank System:** Display a player's score (e.g., "level") directly in chat.
+- **Auto-Mute System:** Automatically monitors and prevents message spam in chat.
+- **Auto Ban-Words System:** Filters specific words and applies automatic mutes after warnings.
+- **Broadcast System:** Sends automatic, periodic messages to all players.
+- **Message Saving System (Log):** Review messages sent by players, with search and management options.
+- **Below Name Display (Belowname):** Customize the text shown above players' heads (nametag), including ranks, health, last message, and more.
+- **Proximity Chat:** Limits message visibility to players within a certain radius.
+- **Player Name Customization:** Allows modification of the name displayed in chat and belowname.
+- **Rainbow Text Support (`$rainbow`):** Add a splash of color to your rank messages!
+- **Time Zone Configuration:** Ensures accurate timestamps in logs.
+- **Maximum Customization and Configuration:** Modify every aspect via the `config.js` file.
+
+# Chat Ranks+ Commands ⌨️
+The default command prefix is `-` (e.g., `-rank help`), but it can be changed in the `scripts/config/config.js` file. Players will only see commands accessible to their rank when they run `-rank help`.
+
+- `-rank add`: Opens a menu to assign a rank to a player.
+- `-rank remove`: Opens a menu to remove a rank from a player.
+- `-rank list`: Shows the list of configured ranks and their descriptions.
+- `-rank help`: Shows available commands for the player's rank.
+- `-rank menu`: Opens a UI menu with all main addon options.
+- `-rank log`: Opens the player message log, with search and management options.
+- `-rank mute`: Opens a menu to mute or unmute players.
+- `-rank info`: Shows addon information (version, creator).
+- `-rank name`: Opens a menu to manage custom player names (visible in chat and belowname).
+
+Use the item `da:chat_rank_menu` (if configured and available) to quickly open the `-rank menu`!
+
+# Detailed Features 🛠️
+
 <details>
-<summary>scripts/config</summary>
+<summary>📂 Main Configuration File (`scripts/config/config.js`)</summary>
 
-prefix:"-",
+The heart of Chat Ranks+ customization lies in the `config.js` file located in the `scripts` folder of the behavior pack.
 
+export let config = {
+prefix: "-", // Prefix for commands
+
+permission: { /* ...rank configuration... */ },
+auto_mute: { /* ...auto-mute configuration... */ },
+database: { /* ...log database configuration... */ },
+broadcast: { /* ...broadcast configuration... */ },
+ban_words: { /* ...ban words configuration... */ },
+time_zone: "UTC+2", // Time zone configuration
+proximity_chat: { /* ...proximity chat configuration... */ },
+belowname: { /* ...below name text configuration... */ },
+
+chat_rank_version: "1.10.0" // Do not modify
+};
+
+Be sure to consult your `config.js` file for all options and detailed comments.
 </details>
 
 <details>
-<summary>explanation</summary>
+<summary>👑 Multi-Rank System and Message Formatting</summary>
 
-Prefix to start Chat Rank+ commands
+Assign and customize player ranks. Each rank can have a unique appearance in chat, specific commands, and a priority level for message formatting if multiple ranks are assigned.
 
-prefix:""   | Here you can decide with which symbol you want to start the Chat Rank commands |
+<p align="center">
+  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_3.png" loading="eager" alt="Multi-Rank Example" />
+</p>
+<p align="center">
+  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_4.png" loading="eager" alt="Add/Remove Rank Menu" />
+</p>
 
-</details>
+**Configuration (`scripts/config/config.js` > `permission`):**
 
-# Multi Rank System
-You can add more ranks to the player, which will be visible in chat, and you can customize them as you wish.
-<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_3.png" loading="eager" /></p>
-Here you can use the following commands to add and remove the rank to the player.
-| -rank add | -rank remove | -rank menu |
-<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_4.png" loading="eager" /></p>
+permission: {
+default: {
+state: true,
+rank: "§8[§asteve§8]",
+description: "Basic server role",
+command: ["help", "info"],
+score: "", // Scoreboard name for $score_point
+message: "$rank §f$player §8>> §f$message"
+},
+admin: {
+state: true,
+rank: "§8[§dAdmin§8]",
+description: "Has a high level of control over the server, often can change gameplay and has permission to ban or unban players",
+command: ["list", "help", "add", "remove", "menu", "log", "mute", "info", "name"],
+level: 0, // Highest priority
+score: "level",
+// Example with $rainbow and $score_point
+message: "§f[§8Level: §b$score_point§f]$rank $rainbow§4$player§r §a>> §2$message"
+},
+mod: {
+state: true,
+rank: "§8[§aMod§8]",
+description: "This role helps maintain order in the server, can ban or unban players, and often answers player questions",
+command: ["help", "info", "list", "add", "remove", "menu", "log", "mute"],
+score: "",
+level: 1,
+message: "$rank §d$player §d>> §5$message"
+},
+helper: {
+state: true,
+rank: "§8[§dHelper§8]",
+description: "This role is often given to players who are willing to help other players. They usually do not have moderation permissions.",
+command: ["help", "info", "list", "mute"],
+score: "",
+level: 2,
+message: "$rank §a$player §8>> §f$message"
+},
+builder: {
+state: true,
+rank: "§8[§8Builder§8]",
+description: "This role is given to players who contribute to building structures in the server.",
+command: ["help", "info", "list"],
+score: "",
+level: 3,
+message: "$rank §f$player §8>> §3$message"
+},
+vip: {
+state: true,
+rank: "§8[§6Vip§8]",
+description: "This is a role often given to donors or long-time players. They might have some special perks.",
+command: ["help", "info"],
+score: "",
+level: 4,
+message: "$rank §e$player §8>> §6$message"
+}
+// ...add more custom ranks as needed
+}
 
-<details>
-<summary>scripts/config</summary>
+**Keywords for `message`:**
+- `$player`: Player's name (or custom name if set).
+- `$message`: Player's original message.
+- `$rank`: Player's primary rank text (based on `level` priority if multiple ranks are assigned; otherwise, it shows concatenated ranks by default based on `chat_rank.js` logic for `$rank`).
+- `$score_point`: Player's score from the scoreboard specified in `score`.
+- `$rainbow`: Applies a rainbow effect to the following text (until `§r` is encountered).
 
-permission:{
-
-        default:{
-
-            state:true,
-
-            rank:"§8[§asteve§8]",
-
-            description:"Basic server role",
-
-            command:["help","info"],
-
-            score:"",
-
-            message:"$rank §f$player §8>> §f$message"
-
-        },
-
-        admin:{
-
-            state:true,
-
-            rank:"§8[§dAdmin§8]",
-
-            description:"Has a high level of control over the server, often can change gameplay and has permission to ban or unban players",
-
-            command:["list","help","add","remove","menu","log","mute","info"],
-
-            level:0,
-
-            score:"level",  
-
-            message:"§f[§8Level: §b$score_point§f]$rank §4$player §a>> §2$message"
-
-        },
-
-        mod:{
-
-            state:true,
-
-            rank:"§8[§aMod§8]",
-
-            description:"This role helps maintain order in the server, can ban or unban players, and often answers player questions",
-
-            command:["help","info","list","add","remove","menu","log","mute"],
-
-            score:"",
-
-            level:1,
-
-            message:"$rank §d$player §d>> §5$message"
-
-        },
-
-        helper:{
-
-            state:true,
-
-            rank:"§8[§dHelper§8]",
-
-            description:"This role is often given to players who are willing to help other players. They usually do not have moderation permissions.",
-
-            command:["help","info","list","mute"],
-
-            score:"",
-
-            level:2,
-
-            message:"$rank §a$player §8>> §f$message"
-
-        },
-
-        builder:{
-
-            state:true,
-
-            rank:"§8[§8Builder§8]",
-
-            description:"This role is given to players who contribute to building structures in the server.",
-
-            command:["help","info","list"],
-
-            score:"",
-
-            level:3,
-
-            message:"$rank §f$player §8>> §3$message"
-
-        },
-
-        vip:{
-
-            state:true,
-
-            rank:"§8[§6Vip§8]",
-
-            description:"This is a role often given to donors or long-time players. They might have some special perks.",
-
-            command:["help","info"],
-
-            score:"",
-
-            level:4,
-
-            message:"$rank §e$player §8>> §6$message"
-
-        }
-
-    },
-
+**Available commands for ranks (defined in `permission[rankName].command` array):**
+`add`, `remove`, `list`, `help`, `menu`, `log`, `mute`, `info`, `name`.
+You assign these command strings to the `command` array for each rank to grant them access.
 </details>
 
 <details>
-<summary>explanation</summary>
+<summary>📈 Score-Based Rank System</summary>
 
-Here you can configure the rank tags for your world/realm or server exactly as you wish!
+Display a specific score (e.g., "level", "money") of a player directly in the chat format, fetching it from an existing scoreboard.
 
-- admin:{}                              | It indicates which tag is required to have all the changes in chat. For example, here it is ‘admin’, so if it has the ‘admin’ tag, it will start the changes for you. |
-- state:true                            | Indicates the status of the created permission; if it’s false, that rank is deactivated |
-- rank:""                               | Here you will enter the text of how that rank will be seen in chat and list |
-- description:""                        | Here instead you will put the description of the rank that will be visible in the list |
-- command:[""]                          | Here you will enter the commands to which the player has access |
-- level:0,                              | Here you will decide that in case of multiple ranks, which one will have priority on the decorative part that will be done on the message |
-- score:""                              | Here you will enter the scoreboard from which the player’s score will be taken |
-- message:""                            | Here you can decide how to decorate the player’s chat with that rank, also using keywords listed below |
-  
-Keywords to be inserted into the message
+<p align="center">
+  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_5.png" loading="eager" alt="Rank with Score Example" />
+</p>
 
-- $player               | Used to indicate the player’s name |
-- $message              | The message that the player writes, so the base one |
-- $rank                 | Server to display the player’s rank in chat |
-- $score_point          | To indicate the player’s scoreboard score in chat, remember to put in the score from which scoreboard the score should be taken |
-- Command list
+**Configuration (`scripts/config/config.js` > `permission` > `[rankName]`):**
+- `score: "scoreboard_name"`: Specifies the scoreboard objective to get the score from (e.g., `"level"`). Make sure this scoreboard objective exists in your world.
+- `message: "...$score_point..."`: Use the `$score_point` keyword in the message template to display the score.
 
-Here you will decide which commands of the Chat Rank+ addon the player has access to. When they execute ‘rank help’, they will only see the commands they have access to.
+**Example (within a rank like `admin` in the `permission` object):**
 
-- add                  | Provides access to the command to add the rank. |
-remove               | Provides access to the command to remove the rank. |
-- list                 | Provides access to the command to view the rank list. |
-- help                 | Provides access to the command to view available commands. |
-- menu                 | DProvides access to the command for the menu where you have all the rank commands. |
-- log                  | Provides access to the command to view messages sent by players and manage them. |
-- mute                 | Provides access to the command to unmute and mute players. |
-- info                 | Provides access to the command to see addon information |
-
-</details>
-
-# Score Rank System
-Do you want to add a special touch to your world? Do you want to create a level-based mode or a prison where players can see their level or score in chat? Now it’s possible.
-<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_5.png" loading="eager" /></p>
-Remember that when you add the score in chat, the scoreboard and the player must have a score on that scoreboard, otherwise it will not work.
-
-<details>
-<summary>scripts/config</summary>
-
-permission:{
-
-        admin:{
-
-            state:true,
-
-            rank:"§8[§dAdmin§8]",
-
-            description:"Has a high level of control over the server, often can change gameplay and has permission to ban or unban players",
-
-            command:["list","help","add","remove","menu","log","mute","info"],
-
-            level:0,
-
-            score:"level",  
-
-            message:"§f[§8Level: §b$score_point§f]$rank §4$player §a>> §2$message"
-
-        }
-
-    },
-
-</details>
-
-<details>
-<summary>explanation</summary>
-
-This is the section that manages the player’s score in chat. In one part you will need to insert the scoreboard, which obviously must already be present in the game, and in the other you will need to insert the score in chat to display it. Remember that the player must have that scoreboard assigned with at least one score, otherwise the standard chat will appear, generating an error in the log.
-
-- score:""                              | Here you will enter the scoreboard from which the player’s score will be taken |
-- score_point          | To indicate the player’s scoreboard score in chat, remember to put in the score from which scoreboard the score should be taken |
-
-</details>
-
-
-# Auto Mute System
-The following addon is equipped with an automated system to monitor players and prevent spam messages in chat. Obviously, the system can be disabled and customized as desired.
-<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_6.png" loading="eager" /></p>
-In addition to the automated system, you can mute and unmute players whenever you want, through commands or the menu.
-| -rank mute | -rank menu |
-<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_7.png" loading="eager" /></p>
-
-<details>
-<summary>scripts/config</summary>
-
-     auto_mute:{
-
-            state:true,
-
-            time_spam:200,
-
-            message:"§f[§bServer§f] §8>> §cYou've been mutated from too much spam in chat!",
-
-            no_chat:"§f[§bServer§f] §8>> §cYou cannot write because you have been mutated!",
-
-            unmute:`§f[§bServer§f] §8>> §aYou have been unmuted!`,
-
-            rank_immune:["admin","mod"]
-
-        },
-
-</details>
-
-<details>
-<summary>explanation</summary>
-
-Auto mute system serves to provide automatic support to avoid chat spam
-
-- state:true                   | Indicates the status of the system to automatically mute players in your world/realm or server |
-- time_spam:200                | Here you can decide the speed at which messages can be sent, the shorter the time, the more messages can be sent |
-- message:""                   | Warning message that the player has been muted because they wrote too much in chat |
-- no_chat:""                   | Warns that they cannot write in chat because they have been muted |
-- unmute:                      | A warning that is sent to the player when they are unmuted. |
-- rank_immune:[""]             | Here you can enter the ranks that are immune to the auto mute control system |
-
-</details>
-
-# Auto Ban Words System
-This system allows you to ban certain words that you don’t want players to write in chat. You can give a warning to players that, after a certain number of times they say that word, they will be muted. Obviously, the system can be disabled and customized as you wish.
-<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_8.png" loading="eager" /></p>
-
-<details>
-<summary>scripts/config</summary>
-
-    ban_words:{
-
-        state:true,
-
-        time:3,
-
-        message:"§f[§bServer§f] §8>> §cThe following word is banned in this server if you keep sending it you will be mutated!",
-
-        message_mute:"§f[§bServer§f] §8>> §cYou have been mutated for sending too many forbidden words.",
-
-        rank_immune:["admin","mod"],
-
-        words:[
-
-            "test",
-
-            "test1"
-
-        ]
-
+    admin:{
+        // ... other admin settings
+        score:"level",  
+        message:"§f[§8Level: §b$score_point§f]$rank §4$player §a>> §2$message"
     }
 
+The player must have a score on the `level` scoreboard objective for `$score_point` to display correctly. If the score or objective is not found, it defaults to "0" or may not appear as expected depending on internal handling.
 </details>
 
 <details>
-<summary>explanation</summary>
+<summary>🤫 Auto-Mute System</summary>
 
-system to control the words you want to ban in your world/realm/server
+Prevent spam by automatically muting players who send messages too quickly.
 
-- state:true              | Indicates the status of the control system for banned words; if it’s on false, it is disabled |
-- time:3                  | Indicates after how many attempts the player is muted if they send one of the banned words |
-- message:""              | Warning to avoid writing banned words |
-- message_mute:""         | Warning that the player has been muted for having exceeded the limit of times said banned words |
-- rank_immune:[""]             | Here you can enter the ranks that are immune to the ban words control system |
-- words:[""]              | Here you insert words that you want to ban in your world/realm or server |
+<p align="center">
+  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_6.png" loading="eager" alt="Auto-Mute Example" />
+</p>
+<p align="center">
+  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_7.png" loading="eager" alt="Manual Mute Menu" />
+</p>
 
-</details>
+**Configuration (`scripts/config/config.js` > `auto_mute`):**
 
-# Broadcast System
-The system is equipped with messages that will be sent to all players every so often, of warning or whatever you desire. You can disable it whenever you want and customize it as you prefer from the file config.
-<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_9.png" loading="eager" /></p>
+auto_mute: {
+state: true, // true to enable, false to disable
+time_spam: 200, // Minimum time in ticks between messages from a player to avoid being muted (20 ticks = 1 second). Default is 200 ticks (10 seconds).
+// The actual messages for "You've been muted...", "You cannot write...", "You have been unmuted!" are handled by
+// the addon's internal translation files (e.g., using keys like 'chatrank.mute.message').
+// Your original README listed example messages here, but these are typically for localization in the addon itself.
+rank_immune: ["admin", "mod"] // Array of rank tags (e.g., "admin") that are exempt from auto-mute.
+}
 
-<details>
-<summary>scripts/config</summary>
-
-    broadcast:{
-
-        state:true,
-
-        message:[
-
-            "§f[§dbroadcast§f] §8>> §bNew Add-on released on YouTube ",
-
-            "§f[§dbroadcast§f] §8>> §bTry visiting our YouTube channel",
-
-            "§f[§dbroadcast§f] §8>> §bBest server exists in Minecraft Bedrock",
-
-            "§f[§dbroadcast§f] §8>> §dDiscord code §aNKy9A9RAe8"
-
-        ],
-
-        time:200
-
-    },
-
+Players manually muted or unmuted via commands will also receive corresponding messages.
 </details>
 
 <details>
-<summary>explanation</summary>
+<summary>🤬 Auto Ban-Words System</summary>
 
-This is a general chat broadcast system, in which you can insert personalized messages that will be sent to the players.
+Filter unwanted words from chat. Players receive a warning, and after a configurable number of violations, they are muted.
 
-- state:true                                      | You can decide whether the system should send messages periodically. |
-- message:["text1",text2,"text3"]                 | You can insert the number of messages you want, which will be sent to the players in order. |
-- time:""                                         | You can decide the time interval with which the system will send the messages. |
+<p align="center">
+  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_8.png" loading="eager" alt="Ban Words Example" />
+</p>
 
-</details>
-
-# Saving Player Messages System
-Thanks to this system, you can review the messages written by players and make revisions or whatever you desire. You will have a menu with all the names of the players who have written and, in case there are many, you can search for them by writing the name to see their messages. You can even search within the players’ messages if you are looking for something specific. Obviously, this part can also be disabled from the configuration file. The system is equipped with a function that, after a certain period of time, resets the database. Whoever has the command permissions for the menu, remove, add or log, will be notified via message that the database has been reset.
-| -rank log | -rank menu |
-<p align="center"><img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_10.png" loading="eager" /></p>
-Obviously, in addition to seeing the player’s messages, you can also remove the player’s messages with the appropriate button present when you view all of his messages.
-
-<details>
-<summary>scripts/config</summary>
-
-    database:{
-
-        state:true,
-
-        Database_name:"ChatSendSave",
-
-        reset_time_state:true,
-
-        reset_time:30000000,
-
-        reset_message:"§f[§bServer§f] §8>> §cThe messages in the Database have been reset!"
-
-    },
+**Configuration (`scripts/config/config.js` > `ban_words`):**
+ban_words: {
+state: true, // true to enable, false to disable
+time: 3, // Number of times a player can send a message containing any banned word before being automatically muted.
+// The messages for "The following word is banned..." and "You have been muted for sending..."
+// are typically handled by the addon's internal translation files.
+rank_immune: ["admin", "mod"], // Array of rank tags exempt from the banned word filter.
+words: [ // Array of words or phrases (case-insensitive) that are considered banned.
+"test", // Example, likely too common for real use
+"test1"
+// "another bad phrase"
+]
+}
 
 </details>
 
 <details>
-<summary>explanation</summary>
+<summary>📢 Broadcast System</summary>
 
-Message saving system of the world/realms or server
+Send automatic, periodic messages to all online players.
 
-- state:true                       | Indicates the status of the database; if you set it to false, the database will be disabled |
-- Database_name:"ChatSendSave"     | If you want to change the name of the database where the players’ messages are saved |
-- reset_time_state:true            | If the status is set to false, the database will not be cleaned of the existing messages |
-- reset_time:30000000              | Indicates the time at which the database will be reset |
-- reset_message:""                 | Warning message of the database reset only for those who have access to the add, remove, or menu commands |
+<p align="center">
+  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_9.png" loading="eager" alt="Broadcast Example" />
+</p>
 
+**Configuration (`scripts/config/config.js` > `broadcast`):**
+
+broadcast: {
+state: true, // true to enable, false to disable
+prefix: "§f[§dbroadcast§f] §8>> ", // Optional prefix to display before each broadcast message.
+message: [ // An array of messages to broadcast. Messages are sent sequentially, looping back.
+"§f[§dbroadcast§f] §8>> §bNew Add-on released on YouTube ", // Your original examples
+"§f[§dbroadcast§f] §8>> §bTry visiting our YouTube channel",
+"§f[§dbroadcast§f] §8>> §bBest server exists in Minecraft Bedrock",
+"§f[§dbroadcast§f] §8>> §dDiscord code §aNKy9A9RAe8"
+],
+time: 200 // Time interval in ticks between sending each broadcast message (20 ticks = 1 second). 200 ticks = 10 seconds (quite fast).
+}
+
+Note: Your original example messages in the `message` array already included a prefix-like structure. You can simplify by putting the common prefix in the `prefix` field and having just the core messages in the `message` array.
 </details>
 
-# Maximum Customization And Configuration
-Chat Rank+ offers maximum customization according to your tastes. Just go to the path of your addon, look for the Chat Rank+ folder, then on ‘scripts’ and finally on the ‘config’ file, where you can set the ranks and everything else as you like.
+<details>
+<summary>💾 Message Saving System (Log)</summary>
+
+Records messages sent by players, mute information, and used banned words. Accessible via the `-rank log` command.
+
+<p align="center">
+  <img src="https://api.mcpedl.com/storage/submissions/214662/images/chat-ranks_10.png" loading="eager" alt="Message Log Example" />
+</p>
+
+**Configuration (`scripts/config/config.js` > `database`):**
+
+database: {
+state: true, // true to enable logging, false to disable.
+// Database_name: "ChatSendSave" - This seems to be an internal prefix for dynamic properties. Not directly for user display.
+reset_time_state: true, // If true, the message history (not full player data like mutes/ban stats) for players is cleared periodically.
+max_message: 200,       // Maximum number of messages to store per player. Older messages are removed.
+reset_time: 30000000,   // Time interval in ticks at which the message database is cleared (if reset_time_state is true). 30,000,000 ticks is very long (over 17 real-world days).
+// 1,209,600 ticks = 7 days.
+// reset_message: The message "The messages in the Database have been reset!" is handled by internal translations
+// and sent to players with specific permissions (log, add, remove, menu).
+}
+
+- Logs are stored using world dynamic properties, which have storage limits.
+- The automatic reset (`reset_time_state`) clears only the chat message history part of the player's logged data.
+- Players with permissions for `add`, `remove`, `menu`, or `log` commands are notified when the database reset occurs.
+- The log interface allows viewing messages, mute history, and banned word occurrences for each player, and also allows resetting parts of a player's data.
+</details>
+
+<details>
+<summary>👁️ Below Name Display (Belowname)</summary>
+
+Customize the text that appears above players' heads (nametag). This is useful for showing ranks, health, the player's last sent chat message, and more.
+
+**Configuration (`scripts/config/config.js` > `belowname`):**
+
+belowname: {
+state: true, // true to enable custom below-name text, false for default nametags.
+// Use '\n' for new lines. Available keywords:
+// $player: Displays the player's name (or their custom name if set via -rank name).
+// $rank: Displays the player's primary rank text (determined by the lowest 'level' in permission settings).
+// $multirank: Displays all of the player's assigned rank texts (from permission), usually space-separated.
+// $life: Displays the player's current health points numerically.
+// $message: Displays the player's last sent chat message. (Note: This is visible for a short duration, approx. 10 seconds, and might be visually spammy).
+text: "$multirank\n$player\n§c♥$life \n$message " // Example from your config.js
+// Simpler example: "$rank\n$player §c♥$life"
+}
+
+The `-rank name` command is used to manage the custom names that `$player` will display if set.
+</details>
+
+<details>
+<summary>🗣️ Proximity Chat</summary>
+
+When enabled, chat messages are only visible to players within a defined radius of the sender.
+
+**Configuration (`scripts/config/config.js` > `proximity_chat`):**
+
+proximity_chat: {
+state: false, // Set to true to enable proximity chat as the default chat mode.
+range: 10     // The radius (in blocks) from the sender within which messages are visible to other players.
+// Your config has a default of 10, the original README example was 50.
+}
+**Note:** The `chat_rank.js` file does not explicitly mention a prefix (e.g., `!message`) for sending global messages when proximity chat is enabled. If this feature is desired, it would need to be implemented or clarified.
+</details>
+
+<details>
+<summary>👤 Player Name Customization</summary>
+
+Allows administrators to set a custom display name for players using a command. This custom name is then used in chat messages (via the `$player` keyword) and in the "belowname" display.
+
+**Command:** `-rank name`
+This command opens a UI for:
+- Selecting a player.
+- Setting a new custom name for the selected player.
+- Resetting a player's custom name back to their original Minecraft username.
+
+The custom name is stored as a dynamic property on the player entity using the key `"ChatRank+"`.
+</details>
+
+<details>
+<summary>🕒 Time Zone Configuration</summary>
+
+Set the time zone to ensure that timestamps recorded in the chat logs (viewable with `-rank log`) are accurate for your server's primary audience or your administrative needs.
+
+**Configuration (`scripts/config/config.js` > `time_zone`):**
+
+time_zone: "UTC+2" // Example: Central European Summer Time (CEST).
+// Format should be "UTC±H" or "UTC±HH:MM" (e.g., "UTC-5", "UTC+5:30", "UTC+0").
+
+This setting adjusts the time recorded by the `ChatLogger` class.
+</details>
+
+# Maximum Customization
+Chat Ranks+ offers extensive customization through its `config.js` file.
+Locate this file typically at: `[Your Addon Behavior Pack Folder]/scripts/config.js`
+(The exact path depends on your addon's folder structure; your `chat_rank.js` imports it as `../config.js`, meaning it's usually one directory level above the file performing the import, or in a `config` subfolder if the import path was `./config.js` from within the `scripts` directory).
+
+Edit this file to tailor ranks, messages, timings, and all other features to your specific needs.
+
+
+
+
 
 - 🖥️ Pc: 
 ```bash
