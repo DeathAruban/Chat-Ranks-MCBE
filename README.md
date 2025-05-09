@@ -113,61 +113,6 @@ The default command prefix is `-` (e.g., `-rank help`), but it can be changed in
 
 Use the item `da:chat_rank_menu` (if configured and available) to quickly open the `-rank menu`!
 
-<details>
-<summary>📂 Main Configuration File (`scripts/config/config.js`)</summary>
-This is the central hub for all add-on customizations. Within this file, you can adjust settings for every feature, tailoring the add-on's behavior to perfectly suit your server's requirements and preferences.
-</details>
-
-<details>
-<summary>👑 Multi-Rank System and Message Formatting</summary>
-This feature allows you to create and manage a sophisticated hierarchy of player ranks (e.g., Administrator, Moderator, VIP, Member). Each rank can be assigned a unique chat appearance, including custom prefixes, colors, and specific message formatting. It also controls which commands players of a certain rank can access, and defines how their chat messages are displayed to others.
-</details>
-
-<details>
-<summary>📈 Score-Based Rank System</summary>
-This system enables the dynamic display of a player's specific score—such as their in-game level, currency amount, kill count, or any other tracked statistic—directly within their chat messages. The score is automatically fetched from an existing scoreboard objective within your Minecraft world.
-</details>
-
-<details>
-<summary>🤫 Auto-Mute System</summary>
-Designed to combat chat spam, this system automatically mutes players who send messages too rapidly. This helps maintain a clean, readable, and enjoyable chat environment for all users. The sensitivity, such as the message rate threshold and mute duration, can be configured.
-</details>
-
-<details>
-<summary>🤬 Auto Ban-Words System</summary>
-This feature actively filters chat messages for specific words or phrases that you designate as forbidden. Players attempting to use these banned terms will receive warnings, and after a configurable number of repeated violations, they can be automatically muted, promoting a more respectful chat.
-</details>
-
-<details>
-<summary>📢 Broadcast System</summary>
-Allows for the scheduling and automatic delivery of periodic messages to all online players. This is highly useful for server-wide announcements, broadcasting important rule reminders, notifying players about upcoming events, or sharing any other relevant information.
-</details>
-
-<details>
-<summary>💾 Message Saving System (Log)</summary>
-This system meticulously records all chat messages sent by players. It also logs crucial administrative actions, such as when players are muted or when banned words are used. These comprehensive logs can be accessed by administrators for monitoring chat activity, reviewing player conduct, and troubleshooting.
-</details>
-
-<details>
-<summary>👁️ Below Name Display (Belowname)</summary>
-This feature allows you to customize the text displayed directly above a player's head (technically below their Minecraft nametag). It can be configured to show various pieces of dynamic information, such as their current rank, health points, their most recently sent chat message, or other custom details.
-</details>
-
-<details>
-<summary>🗣️ Proximity Chat</summary>
-When this feature is enabled, chat messages sent by a player will only be visible to other players who are within a specified radius (measured in blocks) of the sender. This creates a more immersive and realistic local chat experience, where distant conversations aren't globally spammed. The effective range is configurable.
-</details>
-
-<details>
-<summary>👤 Player Name Customization</summary>
-Administrators are given the ability to set custom display names for players. This chosen name will then be used instead of their default Minecraft username in chat messages and in the text displayed above their head (Belowname), allowing for nicknames or thematic naming.
-</details>
-
-<details>
-<summary>🕒 Time Zone Configuration</summary>
-This setting allows you to define the server's correct time zone. By doing so, all timestamps recorded in the chat logs—such as when a message was posted, a player was muted, or an event occurred—will be accurate and consistent, reflecting the local time relevant to your server or administrative team.
-</details>
-
 # Maximum Customization
 Chat Ranks+ offers extensive customization through its `config.js` file.
 Locate this file typically at: `[Your Addon Behavior Pack Folder]/scripts/config.js`
