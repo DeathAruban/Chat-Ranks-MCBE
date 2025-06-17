@@ -3,7 +3,7 @@
     <img src="https://r2.mcpedl.com/submissions/207806/images/chat-ranks_2.png" loading="eager" alt="Chat Ranks+ Logo" width="300"/>
   </a>
   <br>
-  <b>A highly customizable Addon, Chat Ranks+ for Minecraft: Bedrock Edition written in JavaScript (Minecraft Bedrock API 1.21.80+)</b>
+  <b>A highly customizable Addon, Chat Ranks+ for Minecraft: Bedrock Edition written in JavaScript (Minecraft Bedrock API 1.21.90+)</b>
 </p>
 
 <p align="center">
@@ -39,6 +39,7 @@ If you find translation errors or your language is missing, please contact me! I
 ## Platform Compatibility and MCBE Versions 💻📱🎮
 | MCBE Ver. | World | Realms | Dedicated Server | Custom Servers | Windows | Mobile | PS4/PS5 | Xbox | Nintendo Switch |
 | :-------- | :----: | :-----: | :---------------: | :-------------: | :------: | :-----: | :------: | :---: | :---------------: |
+| 1.21.90+  |   ✅   |    ✅   |         ✅        |        ❌       |    ✅    |    ✅   |     ✅    |   ✅  |         ✅        |
 | 1.21.80+  |   ✅   |    ✅   |         ✅        |        ❌       |    ✅    |    ✅   |     ✅    |   ✅  |         ✅        |
 | 1.21.73   |   ✅   |    ✅   |         ✅        |        ❌       |    ✅    |    ✅   |     ✅    |   ✅  |         ✅        |
 | 1.21.60   |   ✅   |    ✅   |         ✅        |        ❌       |    ✅    |    ✅   |     ✅    |   ✅  |         ✅        |
@@ -58,6 +59,7 @@ Click the arrow to select the addon version you want to download. Choose between
 
 | MCBE Version | Addon Version | MCPACK | ZIP | Changelog |
 | :----------- | :------------ | :----: | :---: | :-------: |
+| 1.21.90+     | v1.1.1       | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.10.0/Chat.Rank+.1.1.2.mcaddon) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.1.2/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.1.2) |
 | 1.21.80+     | v1.1.1       | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.10.0/Chat.Rank+.1.1.1.mcaddon) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.1.1/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.1.1) |
 | 1.21.73      | v1.0.9        | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.9/Chat.Rank+.1.0.9.mcaddon) | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.9/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.9) |
 | 1.21.60      | v1.0.8        |    ❌    | [:arrow_down:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/download/1.0.8/Chat.Ranks+.zip) | [:book:](https://github.com/DeathAruban/Chat-Ranks-MCBE/releases/tag/1.0.8) |
