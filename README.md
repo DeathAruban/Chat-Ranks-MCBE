@@ -3,7 +3,7 @@
     <img src="https://r2.mcpedl.com/submissions/207806/images/chat-ranks_2.png" loading="eager" alt="Chat Ranks+ Logo" width="300"/>
   </a>
   <br>
-  <b>A highly customizable Addon, Chat Ranks+ for Minecraft: Bedrock Edition written in JavaScript (Minecraft Bedrock API 1.21.90+)</b>
+  <b>A highly customizable Addon, Chat Ranks+ for Minecraft: Bedrock Edition written in JavaScript (Minecraft Bedrock API 1.21.100+)</b>
 </p>
 
 <p align="center">
