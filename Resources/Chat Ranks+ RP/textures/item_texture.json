@@ -1,0 +1,7 @@
+{
+	"resource_pack_name": "etherealmon",
+	"texture_name": "atlas.items",
+	"texture_data": {
+	"chat_rank_menu": { "textures": "arucube/chat_rank/icon/book" }
+	}
+}
